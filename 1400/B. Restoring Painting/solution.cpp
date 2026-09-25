@@ -1,3 +1,6 @@
+// B. Restoring Painting
+// Codeforces : [https://codeforces.com/contest/675/problem/B]  
+
 #include<iostream>
 #include<string>
 #include<vector>
@@ -37,12 +40,14 @@ void solve(){
         } 
     }
     cout<<n*cnt<<endl;
-    
 }
- 
 int main(){
     fastio();
     int t=1;
     while(t--) solve();
     return 0;
 }
+
+// Complexity
+// Time: O(n)
+// Space : O(1)
